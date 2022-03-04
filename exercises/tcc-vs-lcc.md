@@ -4,3 +4,14 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+### TCC vs LCC 
+
+TCC is the normalized ratio between the number of methods directly connected with other methods through an instance variable and the total number of possible connections between methods.
+
+LCC is the normalized ratio between the number of methods directly or indirectly connected with other methods through an instance variable and the total number of possible connections between methods.
+
+
+TCC = LCC = 1 is a maximally cohesive class: all methods are connected.
+When TCC and LCC are equal, this mean that the class is too cohesive.
+
+
