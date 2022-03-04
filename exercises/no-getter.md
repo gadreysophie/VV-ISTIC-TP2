@@ -34,11 +34,11 @@ Afin de mettre en place JavaParser, j'ai téléchargé les fichiers qui se trouv
 
 J'ai ensuite utilisé le maven du projet avec maven install -> mvn install
 
-J'ai également repris le code exemple proposé dans la question afin de le soumettre à javaparser.
+J'ai également repris le code exemple proposé dans la question afin de le soumettre à javaparser : https://github.com/gadreysophie/VV-ISTIC-TP2/blob/main/code/javaparser-starter/src/main/java/testCode/exampleCode.java
 
 Une fois le build sucess du maven du projet javaparser, j'ai pu soumettre mon code d'exemple à javaparser via l'utilisation d'une commande sous powershell.
 
-Voici la commande utilisée : 
+Voici la commande utilisée une fois placé dans le répertoire contenant javaparser-starter : 
  java -jar .\target\javaparser-starter-1.0-jar-with-dependencies.jar .\src\main\java\testCode\
  
 Cette commande permet de lancer l'exécution du javaparser sur les fichiers se trouvant sur le dossier testCode. Ici le fichier est exampleCode que j'ai ajouté dans le dossier code de javaparser dans le dépît git.
