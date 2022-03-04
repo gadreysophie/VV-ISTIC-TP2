@@ -24,11 +24,13 @@ Use your rule with different projects and describe you findings below. See the [
 ## Answer
 
 Voici les différentes règles que j'ai testé afin de récupérer et repérer les ifStatement imbriqués au dessus de 3 :
+The rule should detect the use of three or more nested if statements in Java programs so it can detect patterns.
+Write below the XML definition of your rule.
 
-//IfStatement//IfStatement//IfStatement 
-//IfStatement//IfStatement//IfStatement//IfStatement[last()] 
-//IfStatement//IfStatement//IfStatement//IfStatement[1] 
-//IfStatement//IfStatement//IfStatement//IfStatement/*
-//IfStatement[1]//IfStatement[1]//IfStatement[1]
-//IfStatement[last()]//IfStatement[last()]//IfStatement[last()]
+* //IfStatement//IfStatement//IfStatement 
+* //IfStatement//IfStatement//IfStatement//IfStatement[last()] 
+* //IfStatement//IfStatement//IfStatement//IfStatement[1] 
+* //IfStatement//IfStatement//IfStatement//IfStatement/*
+* //IfStatement[1]//IfStatement[1]//IfStatement[1]
+* //IfStatement[last()]//IfStatement[last()]//IfStatement[last()]
 
